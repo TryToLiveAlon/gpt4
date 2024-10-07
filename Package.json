@@ -1,0 +1,11 @@
+{
+  "name": "gpt-api",
+  "version": "1.0.0",
+  "main": "api/gpt4.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "g4f": "^1.0.0"
+  }
+}
