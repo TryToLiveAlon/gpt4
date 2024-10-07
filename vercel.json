@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/*.py", "use": "@vercel/python" }
+    { "src": "api/gpt4.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/gpt4", "dest": "/api/main.py" }
+    { "src": "/gpt4", "dest": "/api/gpt4.js" }
   ]
 }
